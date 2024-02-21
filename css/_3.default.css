@@ -5,6 +5,7 @@
 --------------------------------------------------------------*/
 body {
     font-size: 1.125rem;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 .f-regular {
     font-family: "Atkinson Hyperlegible", sans-serif;
@@ -59,7 +60,7 @@ body {
 #main-nav a {
     /* text-transform: uppercase; */
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
     transition: all .3s;
 }
 #main-nav a:hover {
@@ -79,7 +80,6 @@ body {
 
 #main-nav .active .nav-link {
      color: var(--blue);
-     font-weight: 600;
 }
 
 #main-nav .btn {
