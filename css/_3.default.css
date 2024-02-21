@@ -210,3 +210,32 @@ body {
         top: 21px;
         left: 8px;
     }
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+
+.hero {
+    height: 35vh;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .hero-text-container {
+    background-color: var(--blue);
+    border: 5px solid #ffffff;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+}
+.hero .hero-text-container .hero-text {
+    /* position: relative; */
+    transform: rotate(-45deg);
+    top: 50%;
+}
