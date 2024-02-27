@@ -1,5 +1,39 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+
+    .hero .diamond {
+        right: -18%;
+        justify-content: center;
+    }
+    .hero .diamond .hero-text {
+        margin-right: 5rem;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .hero h1 {
+        font-size: 2.35rem;
+    }
+
+    .guarantee .diamond {
+        width: 53vh;
+        height: 53vh;
+    }
+
+    .guarantee .diamond .guarantee-text svg {
+        height: 80px;
+        margin-top: 1rem;
+    }
     
+    .guarantee h2 {
+        font-size: 2.5rem;
+    }
+
+      /* Footer - Medium devices */
+    
+      .shfooter .collapse {
+        display: none;
+    }
+
+
 }

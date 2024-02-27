@@ -31,5 +31,63 @@
     #main-nav .nav-item:last-of-type {
         padding-right: 0;
     }
+
+    .hero {
+        height: 60vh;
+    }
+    .hero .diamond {
+        width: 80vh;
+        height: 80vh;
+        right: -20vh;
+    }
+    .hero .diamond .hero-text {
+        top: -2vh;
+    }
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .cta .container img {
+        min-height: unset;
+    }
+    .circle {
+        width: 285px;
+        height: 285px;
+        border: 17px solid white;
+    }
+    .circle svg {
+        height: 80px;
+    }
+    
+    .circle-border {
+        top: calc(50% + 40px);
+        width: 285px; 
+    }
+    .circle h3 {
+        font-size: 1.5rem;
+    }
+
+    .guarantee img {
+        height: 70vh;
+    }
+    
+        .guarantee .diamond {
+            width: 63vh;
+            height: 63vh;
+        }
+    
+        .guarantee .diamond .guarantee-text svg {
+            height: 90px;
+            margin-top: 1rem;
+        }
+        
+        .guarantee h2 {
+            font-size: 2.75rem;
+        }
+
+        .contact-today-text {
+            /* width: 70%; */
+        }
+
 }
         

@@ -1,5 +1,80 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .hero .diamond .hero-text {
+        margin-right: 6.5rem;
+        margin-left: 0;
+        margin-bottom: 2vh;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .section-title {
+        font-size: 4rem;
+    }
+    .circle {
+        width: 225px;
+        height: 225px;
+        border: 10px solid white;
+    }
+    .circle svg {
+        height: 60px;
+    }
+    
+    .circle-border {
+        top: calc(50% + 40px);
+        width: 225px; 
+    }
+    .circle h3 {
+        font-size: 1.25rem;
+    }
+
+    .guarantee img {
+        height: 50vh;
+    }
+
+    .guarantee .diamond {
+        width: 43vh;
+        height: 43vh;
+    }
+
+    .guarantee h2 {
+        font-size: 3rem;
+    }
+
+    /* Footer - Large Devices */
+
+.shfooter .collapse {
+    display: block;
+    }
+    footer .fa-chevron-right {
+    display: inline-block;
+    }
+    footer ul li {
+    margin-bottom: 10px;
+    
+    }
+    footer ul li span {
+        display: inline-block;
+    }
+    footer ul li a:hover span {
+        animation: arrow-right 0.3s linear forwards; 
+              
+          }
+      
+      @keyframes arrow-right {
+        from {
+          transform: translateX(0px); }
+        to {
+          transform: translateX(2px); } 
+          
+      }
+    
+      #footer .footer-title {
+        font-size: 1.5rem;
+      }
+      
+
+
 
 }

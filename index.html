@@ -8,6 +8,7 @@
         <meta name="description" content="">
         
         <!-- CSS  -->
+        <link href='/css/_0.swiper-bundle.min.css' rel='stylesheet'>
         <link href='/css/_1.bootstrap.min.css' rel='stylesheet'>
         <link href='/css/_2.variables.css' rel='stylesheet'>
         <link href='/css/_3.default.css' rel='stylesheet'>
@@ -21,6 +22,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
+        <!-- Swiper CSS  -->
+       
     </head>
     <body>
         <!-- Top Bar  -->
@@ -40,7 +43,7 @@
                 <nav class="navbar navbar-expand-xl navbar-dark py-0 " id="main-nav" aria-label="Main Navigation" role="navigation">
 
                     <!-- Logo -->
-                    <div class="site-logo-top pt-2 ps-lg-0">
+                    <div class="site-logo-top pt-2 ps-xl-0">
                         <a class="d-flex flex-row align-items-center" href="/" aria-label="Home">
                             <!-- Logo Mobile -->
                             <svg class="d-xl-none" width="300" id="Layer_23" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.42 38.06"><g id="Layer_1-23"><path d="M.3,29.28L7.79,5.79h3.13l7.46,23.49h-2.98l-1.52-5.13H4.81l-1.52,5.13H.3ZM5.67,21.31h7.34l-3.67-12.18-3.67,12.18Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M23.79,29.28V5.83h4.15l9.07,19.94V5.83h2.81v23.45h-4.12l-9.1-20.05v20.05h-2.81Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M47.18,29.28V5.83h5.43c1.59,0,3.05.19,4.37.58s2.47,1.02,3.45,1.91c.97.89,1.73,2.09,2.27,3.6.54,1.51.81,3.38.81,5.6s-.27,4.13-.81,5.64c-.54,1.51-1.29,2.72-2.27,3.62-.98.9-2.12,1.54-3.45,1.93s-2.78.58-4.37.58h-5.43ZM49.99,26.51h2.57c1.03,0,2.03-.1,3-.3.96-.2,1.83-.6,2.6-1.19.77-.6,1.37-1.5,1.82-2.7.45-1.21.67-2.8.67-4.79s-.22-3.58-.67-4.76c-.45-1.18-1.06-2.07-1.82-2.67-.77-.6-1.63-1-2.6-1.19-.97-.2-1.96-.3-3-.3h-2.57v17.91Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M70.11,29.28V5.83h6.33c1.63,0,3.07.17,4.31.51,1.24.34,2.22,1,2.92,1.97.71.97,1.06,2.39,1.06,4.27,0,1.05-.14,2.04-.42,2.95-.28.91-.81,1.69-1.6,2.32-.79.63-1.96,1.08-3.51,1.33l6.18,10.11h-3.43l-6.06-9.87h-2.98v9.87h-2.81ZM72.91,16.64h3.73c.97,0,1.85-.08,2.64-.25.79-.16,1.41-.53,1.88-1.11.47-.57.7-1.46.7-2.65s-.23-2.11-.7-2.67c-.47-.56-1.09-.93-1.88-1.11-.79-.18-1.67-.26-2.64-.26h-3.73v8.04Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M91.35,29.28V5.83h13.52v2.84h-10.71v7.13h7.91v2.84h-7.91v7.79h10.71v2.84h-13.52Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M114.69,29.28l-5.01-23.45h3.07l3.88,19.38,3.64-19.38h3.28l3.64,19.38,3.88-19.38h3.07l-4.98,23.45h-3.4l-3.85-19.38-3.85,19.38h-3.37Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M155.1,29.7c-1.87,0-3.35-.59-4.45-1.77-1.09-1.18-1.69-2.94-1.79-5.28l2.6-.88c-.04,1.78.31,3.1,1.04,3.95.74.85,1.6,1.28,2.6,1.28.54,0,1.07-.14,1.61-.42s.98-.8,1.33-1.54c.35-.75.52-1.83.52-3.23V5.83h2.81v16.01c0,2.55-.56,4.5-1.67,5.85-1.11,1.35-2.65,2.02-4.6,2.02Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M168.74,29.28V5.83h13.52v2.84h-10.71v7.13h7.91v2.84h-7.91v7.79h10.71v2.84h-13.52Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M188.5,29.28V5.83h6.33c1.63,0,3.07.17,4.31.51,1.24.34,2.22,1,2.92,1.97.71.97,1.06,2.39,1.06,4.27,0,1.05-.14,2.04-.42,2.95-.28.91-.81,1.69-1.6,2.32-.79.63-1.96,1.08-3.51,1.33l6.18,10.11h-3.43l-6.06-9.87h-2.98v9.87h-2.81ZM191.31,16.64h3.73c.97,0,1.85-.08,2.64-.25.79-.16,1.41-.53,1.88-1.11.47-.57.7-1.46.7-2.65s-.23-2.11-.7-2.67c-.47-.56-1.09-.93-1.88-1.11-.79-.18-1.67-.26-2.64-.26h-3.73v8.04Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M209.78,29.28V5.83h5.43c1.59,0,3.05.19,4.37.58s2.47,1.02,3.45,1.91c.97.89,1.73,2.09,2.27,3.6.54,1.51.81,3.38.81,5.6s-.27,4.13-.81,5.64c-.54,1.51-1.29,2.72-2.27,3.62-.98.9-2.12,1.54-3.45,1.93s-2.78.58-4.37.58h-5.43ZM212.59,26.51h2.57c1.03,0,2.03-.1,3-.3.96-.2,1.83-.6,2.6-1.19.77-.6,1.37-1.5,1.82-2.7.45-1.21.67-2.8.67-4.79s-.22-3.58-.67-4.76c-.45-1.18-1.06-2.07-1.82-2.67-.77-.6-1.63-1-2.6-1.19-.97-.2-1.96-.3-3-.3h-2.57v17.91Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M229.6,29.28l7.49-23.49h3.13l7.46,23.49h-2.98l-1.52-5.13h-9.07l-1.52,5.13h-2.98ZM234.97,21.31h7.34l-3.67-12.18-3.67,12.18Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M253.08,29.28V5.83h4.15l9.07,19.94V5.83h2.81v23.45h-4.12l-9.1-20.05v20.05h-2.81Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M285.79,29.46c-.95,0-1.77-.22-2.44-.67-.68-.44-1.2-1.06-1.56-1.84-.36-.78-.54-1.68-.54-2.7s.19-1.95.58-2.72c.38-.77.93-1.38,1.63-1.81.7-.43,1.52-.65,2.46-.65.84,0,1.6.2,2.27.58.67.39,1.18.95,1.52,1.68l-1.23.45c-.22-.45-.55-.82-1-1.1-.44-.29-.99-.43-1.64-.43-.59,0-1.12.15-1.6.45-.48.3-.85.75-1.13,1.34-.28.6-.42,1.33-.42,2.2s.14,1.56.41,2.16c.27.6.65,1.06,1.13,1.38.48.32,1.04.48,1.66.48.65,0,1.2-.14,1.64-.42.44-.28.78-.65,1.01-1.11l1.23.45c-.36.74-.89,1.3-1.59,1.69-.7.39-1.5.58-2.39.58Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M295.51,29.46c-.96,0-1.79-.22-2.49-.67-.7-.44-1.24-1.06-1.63-1.85-.39-.78-.58-1.68-.58-2.69s.19-1.9.58-2.68c.38-.77.93-1.38,1.63-1.83.7-.44,1.53-.67,2.49-.67s1.81.22,2.51.67c.7.45,1.24,1.06,1.63,1.83.38.78.58,1.67.58,2.68s-.19,1.91-.58,2.69c-.39.79-.93,1.4-1.63,1.85-.7.44-1.54.67-2.51.67ZM295.51,28.28c.61,0,1.16-.16,1.66-.47.5-.31.89-.76,1.18-1.36.29-.59.44-1.33.44-2.2s-.15-1.59-.44-2.18c-.29-.59-.68-1.04-1.18-1.35-.5-.3-1.05-.46-1.66-.46s-1.15.15-1.64.46c-.5.31-.89.76-1.18,1.35-.29.6-.44,1.32-.44,2.18s.15,1.6.44,2.2c.29.6.68,1.05,1.18,1.36.49.31,1.04.47,1.64.47Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M302.11,29.28v-10.02h2.08l4.56,8.52v-8.52h1.41v10.02h-2.07l-4.58-8.56v8.56h-1.41Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M314.78,29.28v-8.81h-3.33v-1.21h8.07v1.21h-3.33v8.81h-1.41Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M320.81,29.28v-10.02h3.18c.82,0,1.54.07,2.17.22.62.15,1.12.43,1.47.84s.53,1.02.53,1.82c0,.45-.07.87-.21,1.26-.14.39-.41.72-.8.99s-.98.46-1.76.57l3.1,4.32h-1.72l-3.05-4.21h-1.5v4.21h-1.41ZM322.22,23.88h1.88c.49,0,.93-.04,1.33-.1s.71-.23.94-.47.35-.62.35-1.13-.12-.9-.35-1.14-.55-.4-.94-.47c-.4-.07-.84-.11-1.33-.11h-1.88v3.44Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M329.36,29.28l3.77-10.04h1.58l3.75,10.04h-1.5l-.77-2.19h-4.56l-.77,2.19h-1.5ZM332.06,25.88h3.69l-1.85-5.21-1.84,5.21Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M343.36,29.46c-.95,0-1.77-.22-2.44-.67-.68-.44-1.2-1.06-1.56-1.84-.36-.78-.54-1.68-.54-2.7s.19-1.95.58-2.72c.38-.77.93-1.38,1.63-1.81.7-.43,1.52-.65,2.46-.65.84,0,1.6.2,2.27.58.67.39,1.18.95,1.52,1.68l-1.23.45c-.22-.45-.55-.82-1-1.1-.44-.29-.99-.43-1.64-.43-.59,0-1.12.15-1.6.45-.48.3-.85.75-1.13,1.34-.28.6-.42,1.33-.42,2.2s.14,1.56.41,2.16c.27.6.65,1.06,1.13,1.38.48.32,1.04.48,1.66.48.65,0,1.2-.14,1.64-.42.44-.28.78-.65,1.01-1.11l1.23.45c-.36.74-.89,1.3-1.59,1.69-.7.39-1.5.58-2.39.58Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M351.38,29.28v-8.81h-3.33v-1.21h8.07v1.21h-3.33v8.81h-1.41Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M360.71,29.46c-.55,0-1.08-.09-1.6-.26s-.98-.43-1.37-.78-.68-.79-.86-1.33l1.3-.39c.12.36.32.66.59.89.27.23.58.41.94.52.35.11.71.17,1.07.17.4,0,.78-.06,1.14-.2.36-.13.65-.33.88-.59.23-.26.34-.6.34-1s-.15-.73-.45-.98c-.3-.24-.82-.45-1.56-.65l-1.28-.28c-.46-.12-.91-.28-1.36-.48s-.81-.49-1.09-.85c-.29-.37-.43-.87-.43-1.49,0-.57.18-1.05.53-1.46.35-.4.81-.7,1.38-.91.56-.21,1.15-.32,1.76-.32.47,0,.93.07,1.39.2.46.14.86.34,1.23.62s.65.63.86,1.06l-1.29.38c-.19-.35-.5-.61-.92-.79-.42-.18-.87-.27-1.33-.27-.36,0-.71.06-1.04.17-.33.11-.6.29-.81.52-.21.23-.31.52-.31.87,0,.33.1.6.29.79.19.2.46.36.78.47.33.12.68.22,1.07.31l1.09.24c.51.12.99.29,1.44.5.45.21.81.5,1.09.89.28.38.42.89.42,1.53,0,.46-.11.87-.33,1.24-.22.37-.52.67-.88.92-.37.25-.79.43-1.25.56s-.94.2-1.43.2Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M370.55,29.28v-10.02h1.41v8.81h5.39v1.21h-6.79Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M379.43,29.28v-8.81h-3.33v-1.21h8.07v1.21h-3.33v8.81h-1.41Z" style="fill:#ffffff; stroke-width:0px;"/><path d="M385.46,29.28v-10.02h2.73c.8,0,1.53.08,2.2.25s1.24.44,1.73.82c.49.38.87.89,1.14,1.54s.41,1.44.41,2.39-.14,1.76-.41,2.41-.65,1.16-1.14,1.55c-.49.38-1.07.66-1.73.82s-1.4.25-2.2.25h-2.73ZM386.87,28.1h1.29c.52,0,1.02-.04,1.51-.13.48-.08.92-.25,1.3-.51.38-.26.69-.64.92-1.16.23-.51.34-1.2.34-2.05s-.11-1.53-.34-2.03c-.23-.5-.53-.88-.92-1.14-.38-.26-.82-.43-1.3-.51-.49-.08-.99-.13-1.51-.13h-1.29v7.65Z" style="fill:#ffffff; stroke-width:0px;"/></g></svg>
@@ -104,15 +107,372 @@
         <!-- Hero  -->
         <section class="hero">
             <img src="/images/hero-1.png">
-            <div class="hero-text-container">
+            <div class="diamond">
                 <div class="hero-text">
-                    <h1>Specialist<br>Landscaping<br>Company</h1>
+                    <h1><span>Specialist</span><br>Landscaping<br>Company</h1>
                 </div>
             </div>
         </section>
         <!-- End Hero  -->
 
+        <!-- Services -->
+        <section class="services py-5">
+            <div class="container">
+                <div class="row text-center pb-5">
+                    <h2 class="section-title">Our Services</h2>
+                </div>
+                <div class="row g-5">
+                    <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-1.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Artificial Grass</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-2.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Decking</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-3.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Driveways</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-4.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Fencing</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-5.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Groundworks</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-6.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Patios</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-7.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Soft Landscaping</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-8.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Stonework</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                     <!-- Card  -->
+                    <div class="col-md-4 h-100">
+                        <a class="card" href="#">
+                            <div class="card-header p-0">
+                                <img src="/images/srv-9.png" alt="">
+                            </div>
+                            <svg class="corner-overlay" id="Layer_344" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.96 26.96"><g id="Layer_1-344"><polyline points="0 0 26.96 0 26.96 26.96 0 0" style="fill:#1b323b; fill-rule:evenodd; stroke-width:0px;"/><polyline points="14.48 0 26.96 12.48 26.96 0 14.48 0" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-3 pb-2">Brickwork</h3>
+                            <span class="styled-line"></span>
+                        </a>
+                    </div>
+                     <!-- End Card  -->
+                </div>
+            </div>
+        </section>
+        <!-- End Services -->
+
+        <!-- CTA  -->
+        <section class="cta my-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex jusify-content-center px-xl-5">
+                        <a href="#" class="w-100 px-md-4 px-lg-5 d-flex align-items-center justify-content-center">
+                            <img class="w-100 px-md-5" src="/images/cta.png" alt="">
+                            <div class="cta-text py-3 px-5">
+                                <h2 class="mb-0">Garden Design</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End CTA  -->
+
+        <!-- Our Projects  -->
+        <section class="our-projects mt-5">
+            <div class="container-fluid py-5">
+                <div class="container">
+                    <div class="row text-center">
+                        <h2 class="section-title text-white">Our Projects</h2>
+                    </div>
+                    <div class="row">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slide -->
+                                <div class="swiper-slide p-5">
+                                    <img class="w-100" src="/images/slide-1.png" alt="">
+                                    <h3 class="pt-3 pb-0 mb-0">Patio - Glasgow</h3>
+                                    <span class="styled-line"></span>
+                                </div>
+                                <!-- End Slide  -->
+                                <!-- Slide  -->
+                                <div class="swiper-slide p-5">
+                                    <img class="w-100" src="/images/slide-2.png" alt="">
+                                    <h3 class="pt-3 pb-0 mb-0">Driveway - Glasgow</h3>
+                                    <div class="styled-line"></div>
+                                </div>
+                                <!-- End Slide  -->
+                                  <!-- Slide -->
+                                  <div class="swiper-slide p-5">
+                                    <img class="w-100" src="/images/slide-1.png" alt="">
+                                    <h3 class="pt-3 pb-0 mb-0">Patio - Glasgow</h3>
+                                    <span class="styled-line"></span>
+                                </div>
+                                <!-- End Slide  -->
+                                <!-- Slide  -->
+                                <div class="swiper-slide p-5">
+                                    <img class="w-100" src="/images/slide-2.png" alt="">
+                                    <h3 class="pt-3 pb-0 mb-0">Driveway - Glasgow</h3>
+                                    <div class="styled-line"></div>
+                                </div>
+                                <!-- End Slide  -->
+                            </div>
+                          
+                            <!-- Swiper Navigation -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Our Projects  -->
+
+        <!-- Our Approach  -->
+        <section class="our-approach py-5">
+            <div class="container">
+                <div class="row text-center pb-5 g-5">
+                    <div class="col-12">
+                        <h2 class="section-title">Our Approach</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Circle  -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="circle d-flex flex-column justify-content-start pt-4">
+                            <svg id="Layer_650" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.25 67.23"><g id="Layer_1-650"><path d="M34.99,67.23l-30.8-.04C1.88,67.2,0,65.31,0,62.99L.07,4.19C.07,1.88,1.96,0,4.27,0l30.8.04c2.32,0,4.2,1.89,4.2,4.2v2.8c0,.77-.63,1.4-1.4,1.4-.77,0-1.4-.63-1.4-1.4v-2.8c0-.77-.62-1.4-1.4-1.4l-30.8-.03c-.77,0-1.4.63-1.4,1.4l-.07,58.8c0,.77.63,1.4,1.4,1.4l30.8.04c.77,0,1.4-.63,1.4-1.4v-11.2c.01-.77.64-1.4,1.41-1.4s1.4.63,1.4,1.4v11.2c-.02,2.32-1.9,4.2-4.22,4.2" style="fill:#fff; stroke-width:0px;"/><path d="M21.06,8.42h-2.8c-.77,0-1.4-.63-1.4-1.4,0-.77.63-1.4,1.4-1.4h2.8c.77,0,1.4.63,1.4,1.4s-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M37.8,61.64l-36.4-.04c-.77,0-1.4-.63-1.4-1.4,0-.77.63-1.4,1.4-1.4l36.4.04c.77,0,1.4.63,1.4,1.4,0,.77-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M63.02,44.87l-28-.03c-.77,0-1.4-.63-1.4-1.4,0-.77.63-1.4,1.4-1.4l28,.03c.77,0,1.4-.63,1.4-1.4l.03-22.4c0-.77-.63-1.4-1.4-1.4l-42-.05c-.77,0-1.4.63-1.4,1.4l-.03,22.4c0,.77.63,1.4,1.4,1.4h2.8c.77,0,1.4.63,1.4,1.4,0,.77-.63,1.4-1.4,1.4h-2.8c-2.32,0-4.2-1.89-4.2-4.21l.03-22.4c0-2.32,1.89-4.2,4.21-4.2l42,.05c2.32,0,4.2,1.89,4.2,4.21l-.03,22.4c0,2.32-1.89,4.2-4.2,4.2" style="fill:#fff; stroke-width:0px;"/><path d="M43.44,30.84h-2.8c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h2.8c.77,0,1.4.63,1.4,1.4s-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M32.24,30.83h-2.8c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h2.8c.77,0,1.4.63,1.4,1.4,0,.77-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M54.64,30.86h-2.8c-.77,0-1.4-.63-1.4-1.4,0-.77.63-1.4,1.4-1.4h2.8c.77,0,1.4.63,1.4,1.4s-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-4 px-4">Get in touch</h3>
+                        </div>
+                        <svg class="circle-border" id="Layer_232" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.08 83.81"><g id="Layer_1-232"><path d="M228.61.15c-15.48,48.22-60.72,83.16-114.07,83.16S15.96,48.38.48.15" style="fill:none; fill-rule:evenodd; stroke:#6f7b7c; stroke-miterlimit:10;"/></g></svg>
+                    </div>
+                    <!-- End Circle -->
+                    <!-- Circle  -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="circle d-flex flex-column justify-content-start pt-4">
+                            <svg id="Layer_27" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.8 72.8"><g id="Layer_1-27"><path d="M36.4,42c-3.09,0-5.6-2.51-5.6-5.6s2.51-5.6,5.6-5.6,5.6,2.51,5.6,5.6-2.51,5.6-5.6,5.6M36.4,33.6c-1.54,0-2.8,1.26-2.8,2.8s1.26,2.8,2.8,2.8,2.8-1.26,2.8-2.8-1.26-2.8-2.8-2.8Z" style="fill:#fff; stroke-width:0px;"/><path d="M36.4,72.8C16.33,72.8,0,56.47,0,36.4c0-9.77,3.82-18.94,10.75-25.83.12-.11,2.44-2.31,3.83-3.31.63-.45,1.5-.3,1.95.33.45.63.3,1.5-.33,1.95-1.23.88-3.49,3.02-3.51,3.04-6.38,6.33-9.9,14.8-9.9,23.82,0,18.53,15.07,33.6,33.6,33.6s33.6-15.07,33.6-33.6S54.93,2.8,36.4,2.8c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4c20.07,0,36.4,16.33,36.4,36.4s-16.33,36.4-36.4,36.4" style="fill:#fff; stroke-width:0px;"/><path d="M15.4,21c-.77,0-1.4-.63-1.4-1.4v-9.8H4.2c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h11.2c.77,0,1.4.63,1.4,1.4v11.2c0,.77-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M36.4,14c-.77,0-1.4-.63-1.4-1.4v-5.6c0-.77.63-1.4,1.4-1.4s1.4.63,1.4,1.4v5.6c0,.77-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M36.4,67.2c-.77,0-1.4-.63-1.4-1.4v-5.6c0-.77.63-1.4,1.4-1.4s1.4.63,1.4,1.4v5.6c0,.77-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M36.4,67.2c-.77,0-1.4-.63-1.4-1.4v-1.4c0-.77.63-1.4,1.4-1.4s1.4.63,1.4,1.4v1.4c0,.77-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M51.1,63.26c-.48,0-.95-.25-1.21-.7l-.7-1.21c-.39-.67-.16-1.53.51-1.91.67-.39,1.53-.16,1.91.51l.7,1.21c.39.67.16,1.53-.51,1.91-.22.13-.46.19-.7.19" style="fill:#fff; stroke-width:0px;"/><path d="M61.86,52.5c-.24,0-.48-.06-.7-.19l-1.21-.7c-.67-.39-.9-1.24-.51-1.91s1.24-.9,1.91-.51l1.21.7c.67.39.9,1.24.51,1.91-.26.45-.73.7-1.21.7" style="fill:#fff; stroke-width:0px;"/><path d="M10.94,52.5c-.48,0-.95-.25-1.21-.7-.39-.67-.16-1.53.51-1.91l1.21-.7c.67-.39,1.53-.16,1.91.51.39.67.16,1.53-.51,1.91l-1.21.7c-.22.13-.46.19-.7.19" style="fill:#fff; stroke-width:0px;"/><path d="M60.65,23.8c-.48,0-.95-.25-1.21-.7-.39-.67-.16-1.53.51-1.91l1.21-.7c.67-.39,1.53-.16,1.91.51.39.67.16,1.53-.51,1.91l-1.21.7c-.22.13-.46.19-.7.19" style="fill:#fff; stroke-width:0px;"/><path d="M21.7,63.26c-.24,0-.48-.06-.7-.19-.67-.39-.9-1.24-.51-1.91l.7-1.21c.39-.67,1.24-.9,1.91-.51.67.39.9,1.24.51,1.91l-.7,1.21c-.26.45-.73.7-1.21.7" style="fill:#fff; stroke-width:0px;"/><path d="M50.4,13.55c-.24,0-.48-.06-.7-.19-.67-.39-.9-1.24-.51-1.91l.7-1.21c.39-.67,1.24-.9,1.91-.51.67.39.9,1.24.51,1.91l-.7,1.21c-.26.45-.73.7-1.21.7" style="fill:#fff; stroke-width:0px;"/><path d="M65.8,37.8h-5.6c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h5.6c.77,0,1.4.63,1.4,1.4s-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M12.6,37.8h-5.6c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h5.6c.77,0,1.4.63,1.4,1.4s-.63,1.4-1.4,1.4" style="fill:#fff; stroke-width:0px;"/><path d="M33.43,34.83c-.36,0-.72-.14-.99-.41l-8.23-8.23c-.55-.55-.55-1.43,0-1.98.55-.55,1.43-.55,1.98,0l8.23,8.23c.55.55.55,1.43,0,1.98-.27.27-.63.41-.99.41" style="fill:#fff; stroke-width:0px;"/><path d="M39.37,34.83c-.36,0-.72-.14-.99-.41-.55-.55-.55-1.43,0-1.98l13.83-13.83c.55-.55,1.43-.55,1.98,0,.55.55.55,1.43,0,1.98l-13.83,13.83c-.27.27-.63.41-.99.41" style="fill:#fff; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-4 px-4">We'll arrange a suitable time to visit</h3>
+                        </div>
+                        <svg class="circle-border" id="Layer_232" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.08 83.81"><g id="Layer_1-232"><path d="M228.61.15c-15.48,48.22-60.72,83.16-114.07,83.16S15.96,48.38.48.15" style="fill:none; fill-rule:evenodd; stroke:#6f7b7c; stroke-miterlimit:10;"/></g></svg>
+                    </div>
+                    <!-- End Circle -->
+                    <!-- Circle  -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="circle d-flex flex-column justify-content-start pt-4">
+                            <svg id="Layer_211" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.2 67.2"><g id="Layer_1-211"><path d="M31.18,44.75c-.36,0-.72-.14-.99-.41l-7.33-7.33c-.55-.55-.55-1.43,0-1.98L55.97,1.92c1.24-1.24,2.89-1.92,4.65-1.92,3.62,0,6.57,2.95,6.57,6.57,0,1.76-.68,3.41-1.92,4.65l-33.11,33.11c-.27.27-.63.41-.99.41M25.83,36.02l5.35,5.35L63.3,9.25c.7-.7,1.1-1.67,1.1-2.67,0-2.08-1.69-3.77-3.77-3.77-1,0-1.97.4-2.67,1.1L25.83,36.02Z" style="fill:#fff; stroke-width:0px;"/><path d="M50.38,34.79c-.36,0-.72-.14-.99-.41-.55-.55-.55-1.43,0-1.98l13.99-13.98c.1-.1.21-.26.21-.48s-.11-.38-.21-.48l-10.48-10.48c-.55-.55-.55-1.43,0-1.98.55-.55,1.43-.55,1.98,0l10.48,10.48c.67.66,1.03,1.54,1.03,2.46s-.37,1.79-1.03,2.46l-13.99,13.98c-.27.27-.63.41-.99.41" style="fill:#fff; stroke-width:0px;"/><path d="M18.2,50.4c-.19,0-.38-.04-.56-.12-.71-.31-1.03-1.13-.72-1.84l5.65-12.97c.31-.71,1.13-1.03,1.84-.72.71.31,1.03,1.13.72,1.84l-5.65,12.97c-.23.53-.74.84-1.28.84" style="fill:#fff; stroke-width:0px;"/><path d="M18.2,50.4c-.54,0-1.05-.31-1.28-.84-.31-.71.02-1.53.72-1.84l12.97-5.65c.71-.31,1.53.02,1.84.72.31.71-.02,1.53-.72,1.84l-12.97,5.65c-.18.08-.37.12-.56.12" style="fill:#fff; stroke-width:0px;"/><path d="M53.2,67.2H5.6c-3.09,0-5.6-2.51-5.6-5.6V14c0-3.09,2.51-5.6,5.6-5.6h35c.77,0,1.4.63,1.4,1.4s-.63,1.4-1.4,1.4H5.6c-1.54,0-2.8,1.26-2.8,2.8v47.6c0,1.54,1.26,2.8,2.8,2.8h47.6c1.54,0,2.8-1.26,2.8-2.8v-23.8c0-.77.63-1.4,1.4-1.4s1.4.63,1.4,1.4v23.8c0,3.09-2.51,5.6-5.6,5.6" style="fill:#fff; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-4 px-4">We'll give you a no obligation quote</h3>
+                        </div>
+                        <svg class="circle-border" id="Layer_232" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.08 83.81"><g id="Layer_1-232"><path d="M228.61.15c-15.48,48.22-60.72,83.16-114.07,83.16S15.96,48.38.48.15" style="fill:none; fill-rule:evenodd; stroke:#6f7b7c; stroke-miterlimit:10;"/></g></svg>
+                    </div>
+                    <!-- End Circle -->
+                    <!-- Circle  -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="circle d-flex flex-column justify-content-start pt-4">
+                            <svg id="Layer_121" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.6 67.2"><g id="Layer_1-121"><path d="M56.36,41.19h-3.76c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h3.76c1.34,0,2.43-1.04,2.43-2.32,0-.77.63-1.4,1.4-1.4s1.4.63,1.4,1.4c0,2.82-2.35,5.12-5.23,5.12" style="fill:#fff; stroke-width:0px;"/><path d="M1.4,38.71c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4c11.26,0,15.49-7.62,17.76-11.71.42-.76.76-1.37,1.08-1.81,2.56-3.48,4.94-6.28,6.86-8.53,1.03-1.21,1.92-2.25,2.59-3.11.82-1.05,1.61-3.22,2.3-5.12,1.24-3.4,2.06-5.64,3.91-5.64,4.38,0,6.51,3.29,6.51,10.07,0,4.27-3.56,11.51-6.54,16.84-.18.33-.17.71.02,1.03.21.34.59.54,1,.54h13.07c9.95,0,11.63,1.9,11.63,7.59,0,.77-.63,1.4-1.4,1.4s-1.4-.63-1.4-1.4c0-3.58,0-4.79-8.83-4.79h-13.07c-1.38,0-2.68-.72-3.39-1.88-.72-1.18-.75-2.66-.08-3.86,3.93-7.02,6.19-12.66,6.19-15.47,0-6.66-2.11-7.22-3.39-7.27-.45.61-1.14,2.51-1.61,3.8-.81,2.2-1.64,4.48-2.72,5.88-.71.91-1.62,1.98-2.67,3.21-1.89,2.21-4.24,4.97-6.74,8.37-.22.3-.53.86-.89,1.51-2.18,3.94-7.3,13.15-20.21,13.15" style="fill:#fff; stroke-width:0px;"/><path d="M55.09,49.86h-3.84c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h3.84c.36,0,.7-.07,1.01-.22.58-.25,1.42-2.07,1.42-3.34v-.21c0-1.11-.27-2.22-.79-3.19-.36-.68-.11-1.53.58-1.89.68-.36,1.53-.11,1.89.58.73,1.38,1.12,2.94,1.12,4.51v.21c0,1.86-1.1,5.03-3.08,5.89-.66.3-1.39.46-2.15.46" style="fill:#fff; stroke-width:0px;"/><path d="M53.81,58.53h-3.75c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h3.75c.09,0,.18,0,.25-.02.02,0,.04,0,.06,0,.93-.1,2.12-2.08,2.12-3.53v-.21c0-1.11-.27-2.22-.79-3.19-.36-.68-.11-1.53.58-1.89.68-.36,1.53-.11,1.89.58.73,1.38,1.12,2.94,1.12,4.51v.21c0,2.35-1.78,5.97-4.57,6.31-.21.03-.44.05-.66.05" style="fill:#fff; stroke-width:0px;"/><path d="M51.25,67.2h-25.26c-1.21,0-2.41-.21-3.54-.62l-7.26-2.64c-.83-.3-1.7-.45-2.59-.45H1.4c-.77,0-1.4-.63-1.4-1.4s.63-1.4,1.4-1.4h11.2c1.22,0,2.41.21,3.54.62l7.26,2.64c.83.3,1.7.45,2.59.45h25.26c1.15,0,2.43-2.12,2.43-3.55v-.21c0-1.02-.23-2.01-.67-2.94-.33-.7-.04-1.53.66-1.87.7-.33,1.53-.04,1.87.66.62,1.31.94,2.71.94,4.14v.21c0,2.53-2.09,6.35-5.23,6.35" style="fill:#fff; stroke-width:0px;"/></g></svg>
+                            <h3 class="pt-4 px-4">Approval of job completed in given timescale</h3>
+                        </div>
+                        <svg class="circle-border" id="Layer_232" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.08 83.81"><g id="Layer_1-232"><path d="M228.61.15c-15.48,48.22-60.72,83.16-114.07,83.16S15.96,48.38.48.15" style="fill:none; fill-rule:evenodd; stroke:#6f7b7c; stroke-miterlimit:10;"/></g></svg>
+                    </div>
+                    <!-- End Circle -->
+                </div>
+            </div>
+        </section>
+        <!-- End Our Approach  -->
+
+        <!-- Guaranteed  -->
+        <section class="guarantee">
+            <div class="container-fluid px-0 d-flex flex-column justify-content-center">
+                <img src="/images/guarantee.png" alt="">
+                <div class="diamond">
+                    <div class="guarantee-text">
+                        <h2><span>Quality</span><br>Work<br>Guaranteed</h2>
+                        <svg id="Layer_444" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.04 93.87"><g id="Layer_1-444"><polyline points="21.47 30.32 31.14 30.32 34.13 21.11 37.12 30.32 46.79 30.32 38.98 36.01 41.97 45.21 34.13 39.52 26.3 45.21 29.29 36.01 21.47 30.32" style="fill:#fff; stroke-width:0px;"/><path d="M10.64,61.83L1.24,79.87l-.92,1.96c-.72,2.54-.34,4.22,2.47,3.98h0l9.55-1.7,4.71,8.43c3.41,4.23,5.58-2.72,6.58-5.15l7.96-14.98c-2.11-.73-4.66-2.85-7.28-5.22-5.22.11-10.09-.82-13.67-5.35" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/><path d="M68.73,81.83l-.94-1.92-9.29-18.08c-3.58,4.53-8.45,5.46-13.67,5.35-2.61,2.37-5.16,4.49-7.28,5.22l7.88,14.99c.99,2.43,3.16,9.38,6.58,5.15l4.71-8.43,9.5,1.7h.03c2.8.24,3.18-1.44,2.47-3.98" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/><path d="M46.38,60.37c1.97-.83,4.43.35,6.9-.48,2.86-.87,5.22-2.89,6.52-5.58,2.05-4.03.4-6.63,1.89-10.09.7-1.62,3.73-3.05,5.17-5.61,2.1-3.75,1.28-7.38-2.84-12.79-1.88-2.23-2.95-5.02-3.06-7.93-.15-2.24-.24-4.51-2.19-7.4-3.35-4.97-9.88-2.19-13.39-4.2-2.51-1.43-4.52-3.69-6.34-4.84C37.7.48,36.08-.03,34.43,0c-1.67-.03-3.3.48-4.65,1.46-1.8,1.14-3.86,3.4-6.33,4.84-3.53,2.01-10.06-.73-13.4,4.2-1.96,2.89-2.05,5.15-2.19,7.4-.11,2.91-1.19,5.7-3.06,7.93C.7,31.22-.16,34.86,1.96,38.62c1.44,2.56,4.47,3.96,5.17,5.61,1.5,3.46-.16,6.06,1.89,10.09,1.3,2.69,3.67,4.71,6.53,5.58,2.46.8,4.93-.35,6.9.48,3.45,1.46,6.01,4.87,8.77,5.69,2.07.65,4.29.65,6.36,0,2.79-.85,5.34-4.23,8.81-5.7M34.36,53.95c-11.4-.02-20.64-9.27-20.64-20.67,0-11.41,9.24-20.67,20.66-20.67h.05c11.42.02,20.66,9.29,20.64,20.71-.02,11.42-9.29,20.66-20.71,20.64Z" style="fill:#fff; fill-rule:evenodd; stroke-width:0px;"/></g></svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Guaranteed  -->
+
+        <!-- Contact Today  -->
+        <section class="contact-today px-lg-5">
+            <div class="container px-5 px-lg-0 mb-5">
+                <div class="contact-today-text py-4 py-md-5 text-center">
+                    <h2 class="mb-0">Contact us today</h2>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Today  -->
+
+        <!-- Footer  -->
+        <footer id="footer" class="d-flex-column pt-0 pt-md-4 pt-lg-5 pb-5">
+            <!-- Footer Links -->
+            <div class="container text-left">
+              <div class="row">
+      
+                <!-- Site Logos -->
+                <div class="col-lg-5 shfooter d-flex flex-column flex-md-row flex-lg-column align-items-md-center align-items-lg-start pb-4">
+                     <svg class="pb-5 pb-md-0 pb-lg-5" width="300" id="Layer_23" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.42 38.06"><g id="Layer_1-23"><path d="M.3,29.28L7.79,5.79h3.13l7.46,23.49h-2.98l-1.52-5.13H4.81l-1.52,5.13H.3ZM5.67,21.31h7.34l-3.67-12.18-3.67,12.18Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M23.79,29.28V5.83h4.15l9.07,19.94V5.83h2.81v23.45h-4.12l-9.1-20.05v20.05h-2.81Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M47.18,29.28V5.83h5.43c1.59,0,3.05.19,4.37.58s2.47,1.02,3.45,1.91c.97.89,1.73,2.09,2.27,3.6.54,1.51.81,3.38.81,5.6s-.27,4.13-.81,5.64c-.54,1.51-1.29,2.72-2.27,3.62-.98.9-2.12,1.54-3.45,1.93s-2.78.58-4.37.58h-5.43ZM49.99,26.51h2.57c1.03,0,2.03-.1,3-.3.96-.2,1.83-.6,2.6-1.19.77-.6,1.37-1.5,1.82-2.7.45-1.21.67-2.8.67-4.79s-.22-3.58-.67-4.76c-.45-1.18-1.06-2.07-1.82-2.67-.77-.6-1.63-1-2.6-1.19-.97-.2-1.96-.3-3-.3h-2.57v17.91Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M70.11,29.28V5.83h6.33c1.63,0,3.07.17,4.31.51,1.24.34,2.22,1,2.92,1.97.71.97,1.06,2.39,1.06,4.27,0,1.05-.14,2.04-.42,2.95-.28.91-.81,1.69-1.6,2.32-.79.63-1.96,1.08-3.51,1.33l6.18,10.11h-3.43l-6.06-9.87h-2.98v9.87h-2.81ZM72.91,16.64h3.73c.97,0,1.85-.08,2.64-.25.79-.16,1.41-.53,1.88-1.11.47-.57.7-1.46.7-2.65s-.23-2.11-.7-2.67c-.47-.56-1.09-.93-1.88-1.11-.79-.18-1.67-.26-2.64-.26h-3.73v8.04Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M91.35,29.28V5.83h13.52v2.84h-10.71v7.13h7.91v2.84h-7.91v7.79h10.71v2.84h-13.52Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M114.69,29.28l-5.01-23.45h3.07l3.88,19.38,3.64-19.38h3.28l3.64,19.38,3.88-19.38h3.07l-4.98,23.45h-3.4l-3.85-19.38-3.85,19.38h-3.37Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M155.1,29.7c-1.87,0-3.35-.59-4.45-1.77-1.09-1.18-1.69-2.94-1.79-5.28l2.6-.88c-.04,1.78.31,3.1,1.04,3.95.74.85,1.6,1.28,2.6,1.28.54,0,1.07-.14,1.61-.42s.98-.8,1.33-1.54c.35-.75.52-1.83.52-3.23V5.83h2.81v16.01c0,2.55-.56,4.5-1.67,5.85-1.11,1.35-2.65,2.02-4.6,2.02Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M168.74,29.28V5.83h13.52v2.84h-10.71v7.13h7.91v2.84h-7.91v7.79h10.71v2.84h-13.52Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M188.5,29.28V5.83h6.33c1.63,0,3.07.17,4.31.51,1.24.34,2.22,1,2.92,1.97.71.97,1.06,2.39,1.06,4.27,0,1.05-.14,2.04-.42,2.95-.28.91-.81,1.69-1.6,2.32-.79.63-1.96,1.08-3.51,1.33l6.18,10.11h-3.43l-6.06-9.87h-2.98v9.87h-2.81ZM191.31,16.64h3.73c.97,0,1.85-.08,2.64-.25.79-.16,1.41-.53,1.88-1.11.47-.57.7-1.46.7-2.65s-.23-2.11-.7-2.67c-.47-.56-1.09-.93-1.88-1.11-.79-.18-1.67-.26-2.64-.26h-3.73v8.04Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M209.78,29.28V5.83h5.43c1.59,0,3.05.19,4.37.58s2.47,1.02,3.45,1.91c.97.89,1.73,2.09,2.27,3.6.54,1.51.81,3.38.81,5.6s-.27,4.13-.81,5.64c-.54,1.51-1.29,2.72-2.27,3.62-.98.9-2.12,1.54-3.45,1.93s-2.78.58-4.37.58h-5.43ZM212.59,26.51h2.57c1.03,0,2.03-.1,3-.3.96-.2,1.83-.6,2.6-1.19.77-.6,1.37-1.5,1.82-2.7.45-1.21.67-2.8.67-4.79s-.22-3.58-.67-4.76c-.45-1.18-1.06-2.07-1.82-2.67-.77-.6-1.63-1-2.6-1.19-.97-.2-1.96-.3-3-.3h-2.57v17.91Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M229.6,29.28l7.49-23.49h3.13l7.46,23.49h-2.98l-1.52-5.13h-9.07l-1.52,5.13h-2.98ZM234.97,21.31h7.34l-3.67-12.18-3.67,12.18Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M253.08,29.28V5.83h4.15l9.07,19.94V5.83h2.81v23.45h-4.12l-9.1-20.05v20.05h-2.81Z" style="fill:#1b323b; stroke-width:0px;"/><path d="M285.79,29.46c-.95,0-1.77-.22-2.44-.67-.68-.44-1.2-1.06-1.56-1.84-.36-.78-.54-1.68-.54-2.7s.19-1.95.58-2.72c.38-.77.93-1.38,1.63-1.81.7-.43,1.52-.65,2.46-.65.84,0,1.6.2,2.27.58.67.39,1.18.95,1.52,1.68l-1.23.45c-.22-.45-.55-.82-1-1.1-.44-.29-.99-.43-1.64-.43-.59,0-1.12.15-1.6.45-.48.3-.85.75-1.13,1.34-.28.6-.42,1.33-.42,2.2s.14,1.56.41,2.16c.27.6.65,1.06,1.13,1.38.48.32,1.04.48,1.66.48.65,0,1.2-.14,1.64-.42.44-.28.78-.65,1.01-1.11l1.23.45c-.36.74-.89,1.3-1.59,1.69-.7.39-1.5.58-2.39.58Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M295.51,29.46c-.96,0-1.79-.22-2.49-.67-.7-.44-1.24-1.06-1.63-1.85-.39-.78-.58-1.68-.58-2.69s.19-1.9.58-2.68c.38-.77.93-1.38,1.63-1.83.7-.44,1.53-.67,2.49-.67s1.81.22,2.51.67c.7.45,1.24,1.06,1.63,1.83.38.78.58,1.67.58,2.68s-.19,1.91-.58,2.69c-.39.79-.93,1.4-1.63,1.85-.7.44-1.54.67-2.51.67ZM295.51,28.28c.61,0,1.16-.16,1.66-.47.5-.31.89-.76,1.18-1.36.29-.59.44-1.33.44-2.2s-.15-1.59-.44-2.18c-.29-.59-.68-1.04-1.18-1.35-.5-.3-1.05-.46-1.66-.46s-1.15.15-1.64.46c-.5.31-.89.76-1.18,1.35-.29.6-.44,1.32-.44,2.18s.15,1.6.44,2.2c.29.6.68,1.05,1.18,1.36.49.31,1.04.47,1.64.47Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M302.11,29.28v-10.02h2.08l4.56,8.52v-8.52h1.41v10.02h-2.07l-4.58-8.56v8.56h-1.41Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M314.78,29.28v-8.81h-3.33v-1.21h8.07v1.21h-3.33v8.81h-1.41Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M320.81,29.28v-10.02h3.18c.82,0,1.54.07,2.17.22.62.15,1.12.43,1.47.84s.53,1.02.53,1.82c0,.45-.07.87-.21,1.26-.14.39-.41.72-.8.99s-.98.46-1.76.57l3.1,4.32h-1.72l-3.05-4.21h-1.5v4.21h-1.41ZM322.22,23.88h1.88c.49,0,.93-.04,1.33-.1s.71-.23.94-.47.35-.62.35-1.13-.12-.9-.35-1.14-.55-.4-.94-.47c-.4-.07-.84-.11-1.33-.11h-1.88v3.44Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M329.36,29.28l3.77-10.04h1.58l3.75,10.04h-1.5l-.77-2.19h-4.56l-.77,2.19h-1.5ZM332.06,25.88h3.69l-1.85-5.21-1.84,5.21Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M343.36,29.46c-.95,0-1.77-.22-2.44-.67-.68-.44-1.2-1.06-1.56-1.84-.36-.78-.54-1.68-.54-2.7s.19-1.95.58-2.72c.38-.77.93-1.38,1.63-1.81.7-.43,1.52-.65,2.46-.65.84,0,1.6.2,2.27.58.67.39,1.18.95,1.52,1.68l-1.23.45c-.22-.45-.55-.82-1-1.1-.44-.29-.99-.43-1.64-.43-.59,0-1.12.15-1.6.45-.48.3-.85.75-1.13,1.34-.28.6-.42,1.33-.42,2.2s.14,1.56.41,2.16c.27.6.65,1.06,1.13,1.38.48.32,1.04.48,1.66.48.65,0,1.2-.14,1.64-.42.44-.28.78-.65,1.01-1.11l1.23.45c-.36.74-.89,1.3-1.59,1.69-.7.39-1.5.58-2.39.58Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M351.38,29.28v-8.81h-3.33v-1.21h8.07v1.21h-3.33v8.81h-1.41Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M360.71,29.46c-.55,0-1.08-.09-1.6-.26s-.98-.43-1.37-.78-.68-.79-.86-1.33l1.3-.39c.12.36.32.66.59.89.27.23.58.41.94.52.35.11.71.17,1.07.17.4,0,.78-.06,1.14-.2.36-.13.65-.33.88-.59.23-.26.34-.6.34-1s-.15-.73-.45-.98c-.3-.24-.82-.45-1.56-.65l-1.28-.28c-.46-.12-.91-.28-1.36-.48s-.81-.49-1.09-.85c-.29-.37-.43-.87-.43-1.49,0-.57.18-1.05.53-1.46.35-.4.81-.7,1.38-.91.56-.21,1.15-.32,1.76-.32.47,0,.93.07,1.39.2.46.14.86.34,1.23.62s.65.63.86,1.06l-1.29.38c-.19-.35-.5-.61-.92-.79-.42-.18-.87-.27-1.33-.27-.36,0-.71.06-1.04.17-.33.11-.6.29-.81.52-.21.23-.31.52-.31.87,0,.33.1.6.29.79.19.2.46.36.78.47.33.12.68.22,1.07.31l1.09.24c.51.12.99.29,1.44.5.45.21.81.5,1.09.89.28.38.42.89.42,1.53,0,.46-.11.87-.33,1.24-.22.37-.52.67-.88.92-.37.25-.79.43-1.25.56s-.94.2-1.43.2Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M370.55,29.28v-10.02h1.41v8.81h5.39v1.21h-6.79Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M379.43,29.28v-8.81h-3.33v-1.21h8.07v1.21h-3.33v8.81h-1.41Z" style="fill:#6f7b7c; stroke-width:0px;"/><path d="M385.46,29.28v-10.02h2.73c.8,0,1.53.08,2.2.25s1.24.44,1.73.82c.49.38.87.89,1.14,1.54s.41,1.44.41,2.39-.14,1.76-.41,2.41-.65,1.16-1.14,1.55c-.49.38-1.07.66-1.73.82s-1.4.25-2.2.25h-2.73ZM386.87,28.1h1.29c.52,0,1.02-.04,1.51-.13.48-.08.92-.25,1.3-.51.38-.26.69-.64.92-1.16.23-.51.34-1.2.34-2.05s-.11-1.53-.34-2.03c-.23-.5-.53-.88-.92-1.14-.38-.26-.82-.43-1.3-.51-.49-.08-.99-.13-1.51-.13h-1.29v7.65Z" style="fill:#6f7b7c; stroke-width:0px;"/></g></svg>
+                    <div class="ps-md-5 ps-lg-0">
+                        <img class="pe-3" src="/images/footer-1.png" alt="">
+                        <img src="/images/footer-2.png" alt="">
+                    </div>
+                    
+                </div><!-- End Site Logo -->
+                
+                <hr class="clearfix w-100 d-lg-none mb-0">
+      
+                <!-- Address -->
+                <div class="col-lg-3 me-auto shfooter">
+                  <h3 class="footer-title d-none d-lg-block">ADDRESS</h3>
+                  <div class="d-lg-none title" data-bs-target="#showroom" data-bs-toggle="collapse">
+                    <div class="py-3 footer-title d-flex align-items-center justify-content-between">ADDRESS
+                      <div class="navbar-toggler">
+                        <svg class="fas fa-angle-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                        <svg class="fas fa-angle-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>    
+                  </div>
+                    </div>
+                  </div>
+                  <div class="collapse pb-md-0 pt-lg-3" id="showroom">
+                    <p>43 Nethervale Avenue,</p>
+                    <p>Glasgow</p>
+                    <p>G44 3XP</p>
+                    <p>Telephone: 0141 433 1002</p>
+                    <p>Email: info@andrewjerdancontractltd.co.uk</p>
+                  </div>
+                
+                </div><!-- End Address -->
+                
+                <hr class="clearfix w-100 d-lg-none mb-0">
+
+                <!-- Areas -->
+                <div class="col-lg-3 shfooter">
+                    <h3 class="footer-title d-none d-lg-block">AREAS WE COVER</h3>
+                    <div class="d-lg-none title" data-bs-target="#doorsFooter" data-bs-toggle="collapse">
+                      <div class="py-3 footer-title d-flex align-items-center justify-content-between">AREAS WE COVER
+                        <div class="navbar-toggler">
+                            <svg class="fas fa-angle-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                            <svg class="fas fa-angle-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>    
+                         </div>
+                      </div>
+                    </div>
+                      <ul class="list-unstyled collapse pb-md-0 pt-lg-3" id="doorsFooter">
+                        <li>
+                            - Greater Glasgow
+                        </li>
+                        <li>
+                            - Edinburgh
+                        </li>
+                        <li>
+                            - Lanarkshire
+                        </li>
+                        <li>
+                            - Ayrshire
+                        </li>
+                        <li>
+                            - Renfrewshire
+                        </li>
+                        <li>
+                            - Borders
+                        </li>
+                         
+                      </ul>
+                  </div><!-- End Areas -->
+                
+            
+
+              
+                  <hr class="clearfix w-100 d-lg-none mb-0">
+              
+                
+              </div><!-- /.row  -->
+            </div> <!-- /.container  -->
+            <!-- End Footer Links-->
+      
+         
+            
+          </footer>
+        <!-- End Footer  -->
+
         <script src='/scripts/bootstrap.bundle.min.js'></script>  
+        <script src='/scripts/swiper-bundle.min.js'></script>  
+        <script src='/scripts/swiper.js'></script>  
         <script src='/scripts/burger-toggle.js'></script> 
     </body>
 </html>
