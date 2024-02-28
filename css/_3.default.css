@@ -250,6 +250,7 @@ section {
     justify-content: start;
     align-items: center;
     box-shadow: 0 0 0 5px #ffffff; /* White border with a spread radius */
+    z-index: 999999;
 }
 
 /* Pseudo-elements to create the diamond shape and border */
